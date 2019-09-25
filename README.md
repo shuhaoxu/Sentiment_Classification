@@ -1,8 +1,6 @@
 # Sentiment_Classification
 A demo repo for Chinese Sentiment Classification
 
-## Introduction
-
 ## Installation
 Prerequisites:
 
@@ -11,12 +9,12 @@ Prerequisites:
 * numpy (1.14.0)
 
 ## Quick-start
-Format the data
+Format the data  
     ./format.sh $word_vectors $corpus
 
-Train model
+Train model  
     ./train.sh
 
 ## Reference
-$word_vectors : pre-trained word vectors download from networks
+$word_vectors : pre-trained word vectors download from networks  
 $corpus       : corpus selected from training data

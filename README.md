@@ -10,9 +10,11 @@ Prerequisites:
 
 ## Quick-start
 Format the data  
+
     ./format.sh $word_vectors $corpus
 
 Train model  
+
     ./train.sh
 
 ## Reference

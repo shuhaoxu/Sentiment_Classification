@@ -8,7 +8,7 @@ import os
 import sys
 import numpy as np
 import tensorflow as tf
-from sklearn.metrics import f1_score, accuracy_score, confusion_matrix
+from sklearn.metrics import f1_score
 
 from clf.utils import load_data, generate_batch, split_train_dev
 from clf.model import MITE
